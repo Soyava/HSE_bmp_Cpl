@@ -1,0 +1,92 @@
+Start testing: Mar 21 21:53 MSK
+----------------------------------------------------------
+1/1 Testing: UnitTests
+1/1 Test: UnitTests
+Command: "/Users/ronsh/code/ami-Pavel-Eliseev-Soyavo/tasks/image_processor/build/runTests"
+Directory: /Users/ronsh/code/ami-Pavel-Eliseev-Soyavo/tasks/image_processor/build
+"UnitTests" start time: Mar 21 21:53 MSK
+Output:
+----------------------------------------------------------
+Running main() from /tmp/googletest-20250207-4735-e28tfc/googletest-1.16.0/googletest/src/gtest_main.cc
+[==========] Running 19 tests from 9 test suites.
+[----------] Global test environment set-up.
+[----------] 5 tests from ImageTest
+[ RUN      ] ImageTest.ConstructorValid
+[       OK ] ImageTest.ConstructorValid (0 ms)
+[ RUN      ] ImageTest.ConstructorZero
+[       OK ] ImageTest.ConstructorZero (0 ms)
+[ RUN      ] ImageTest.GetPixelInBounds
+[       OK ] ImageTest.GetPixelInBounds (0 ms)
+[ RUN      ] ImageTest.GetPixelOutOfBounds
+[       OK ] ImageTest.GetPixelOutOfBounds (0 ms)
+[ RUN      ] ImageTest.SetPixelOutOfBounds
+[       OK ] ImageTest.SetPixelOutOfBounds (0 ms)
+[----------] 5 tests from ImageTest (0 ms total)
+
+[----------] 2 tests from PixelTest
+[ RUN      ] PixelTest.DefaultConstructor
+[       OK ] PixelTest.DefaultConstructor (0 ms)
+[ RUN      ] PixelTest.ParameterizedConstructor
+[       OK ] PixelTest.ParameterizedConstructor (0 ms)
+[----------] 2 tests from PixelTest (0 ms total)
+
+[----------] 2 tests from CropFilterTest
+[ RUN      ] CropFilterTest.CropSmaller
+[       OK ] CropFilterTest.CropSmaller (0 ms)
+[ RUN      ] CropFilterTest.EmptyImage
+[       OK ] CropFilterTest.EmptyImage (0 ms)
+[----------] 2 tests from CropFilterTest (0 ms total)
+
+[----------] 1 test from GrayscaleFilterTest
+[ RUN      ] GrayscaleFilterTest.Apply
+[       OK ] GrayscaleFilterTest.Apply (0 ms)
+[----------] 1 test from GrayscaleFilterTest (0 ms total)
+
+[----------] 1 test from NegativeFilterTest
+[ RUN      ] NegativeFilterTest.Apply
+[       OK ] NegativeFilterTest.Apply (0 ms)
+[----------] 1 test from NegativeFilterTest (0 ms total)
+
+[----------] 1 test from GaussianBlurFilterTest
+[ RUN      ] GaussianBlurFilterTest.InvalidSigma
+[       OK ] GaussianBlurFilterTest.InvalidSigma (0 ms)
+[----------] 1 test from GaussianBlurFilterTest (0 ms total)
+
+[----------] 1 test from PixelateFilterTest
+[ RUN      ] PixelateFilterTest.InvalidBlockSize
+[       OK ] PixelateFilterTest.InvalidBlockSize (0 ms)
+[----------] 1 test from PixelateFilterTest (0 ms total)
+
+[----------] 2 tests from BMPTest
+[ RUN      ] BMPTest.ReadWrite
+[       OK ] BMPTest.ReadWrite (0 ms)
+[ RUN      ] BMPTest.ReadInvalid
+[       OK ] BMPTest.ReadInvalid (0 ms)
+[----------] 2 tests from BMPTest (1 ms total)
+
+[----------] 4 tests from MainTest
+[ RUN      ] MainTest.InsufficientArgs
+[       OK ] MainTest.InsufficientArgs (0 ms)
+[ RUN      ] MainTest.UnknownFilter
+Error: Cannot open file: input.bmp
+[       OK ] MainTest.UnknownFilter (0 ms)
+[ RUN      ] MainTest.InvalidCropArgs
+Error: Cannot open file: input.bmp
+[       OK ] MainTest.InvalidCropArgs (0 ms)
+[ RUN      ] MainTest.InputFileNotFound
+Error: Cannot open file: non_existent.bmp
+[       OK ] MainTest.InputFileNotFound (0 ms)
+[----------] 4 tests from MainTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 19 tests from 9 test suites ran. (1 ms total)
+[  PASSED  ] 19 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"UnitTests" end time: Mar 21 21:53 MSK
+"UnitTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 21 21:53 MSK

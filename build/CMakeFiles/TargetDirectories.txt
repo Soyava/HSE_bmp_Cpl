@@ -1,0 +1,5 @@
+/Users/ronsh/code/ami-Pavel-Eliseev-Soyavo/tasks/image_processor/build/CMakeFiles/image_processor.dir
+/Users/ronsh/code/ami-Pavel-Eliseev-Soyavo/tasks/image_processor/build/CMakeFiles/runTests.dir
+/Users/ronsh/code/ami-Pavel-Eliseev-Soyavo/tasks/image_processor/build/CMakeFiles/test.dir
+/Users/ronsh/code/ami-Pavel-Eliseev-Soyavo/tasks/image_processor/build/CMakeFiles/edit_cache.dir
+/Users/ronsh/code/ami-Pavel-Eliseev-Soyavo/tasks/image_processor/build/CMakeFiles/rebuild_cache.dir
